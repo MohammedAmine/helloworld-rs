@@ -1,41 +1,44 @@
-#Introduction
-
+#Introduction#
 // TODO
 
-#Prerequisites
+#Prerequisites#
+JDK 1.8.0
+Apache Maven 3.3.9
+Red Hat JBoss EAP 7.0
+Sencha Ext JS 7.2.1
 
-## JDK 1.8.0
-## Apache Maven 3.3.9
-## Red Hat JBoss EAP 7.0
-## Sencha Ext JS 7.2.1
+#Install#
 
-#Install
-
-##Apache Maven
+##JDK##
 1. // TODO
 2. // TODO
 3. // TODO
 
-##JBoss
+##Apache Maven##
 1. // TODO
 2. // TODO
 3. // TODO
 
-## Sencha Ext JS
+##Red Hat JBoss EAP##
 1. // TODO
 2. // TODO
 3. // TODO
 
-## Useful Resources
+##Sencha Ext JS##
+1. // TODO
+2. // TODO
+3. // TODO
 
-##Apache Maven
+#Useful Resources#
+
+##Apache Maven##
 // TODO
 
-##JBoss
+##Red Hat JBoss EAP##
 // TODO
 
-#JAX-RS
+##JAX-RS##
 // TODO
 
-##Sencha Ext
+##Sencha Ext JS##
 // TODO
