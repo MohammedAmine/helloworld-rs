@@ -2,10 +2,10 @@
 // TODO
 
 #Prerequisites#
--JDK 1.8.0
--Apache Maven 3.3.9
--Red Hat JBoss EAP 7.0
--Sencha Ext JS 7.2.1
+- JDK 1.8.0
+- Apache Maven 3.3.9
+- Red Hat JBoss EAP 7.0
+- Sencha Ext JS 7.2.1
 
 #Install#
 
