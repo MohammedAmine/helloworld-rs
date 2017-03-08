@@ -2,6 +2,7 @@
 // TODO
 
 #Prerequisites#
+- Windows Operating System (7/8/10)
 - JDK 1.8.0
 - Apache Maven 3.3.9
 - Red Hat JBoss EAP 7.0
