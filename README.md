@@ -10,6 +10,7 @@
 #Install#
 
 ##JDK##
+
 ###Step 1 Download JDK###
 
 1. Goto Java SE download site @ http://www.oracle.com/technetwork/java/javase/downloads/index.html.
@@ -48,15 +49,20 @@ prompt> javac -version
 ```
 
 ##Apache Maven##
+
 ###Step 1 Download Apache Maven Archive###
-1. Go to Apache Maven Download site @ http://maven.apache.org/download.cgi and download the zip package
-###Step 2 Install Apache Maven###
-1. Extract distribution archive in any directory by using your preferred archive extraction tool, or use a CMD Shell
+1. Go to Apache Maven Download site @ http://maven.apache.org/download.cgi and download the zip package.
+
+###Step 2 Extract the Apache Maven Archive###
+1. Extract distribution archive in any directory by using your preferred archive extraction tool, or use a CMD Shell.
 
 ```bash
-unzip apache-maven-3.3.9-bin.zip
+prompt> unzip apache-maven-3.3.9-bin.zip
 ```
-2. Launch a CMD shell and issue the following commands to verify that Apache Maven are properly installed and display their version.
+
+###Step 3 Verify the Apache Maven Installation###
+1. Launch a CMD shell and issue the following commands to verify that Apache Maven are properly installed and display their version.
+
 ```bash
 prompt> mvn -v
 ```
