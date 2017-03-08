@@ -111,13 +111,13 @@ prompt> mvn -v
 
 ###Step 2 Clone the Git repository###
 
-1. Ensure that you have forked the repository online. This option is available in the repository host’s website.
+1. Ensure that you have forked the repository online. This option is available in the repository host’s website (GitHub).
 
-2. Click the Clone a Git Repository and add the clone to this view button.
+2. Click the "Clone a Git Repository and add the clone to this view" button.
 
 3. Enter the details of the source repository as follows
 
-    3.1 Add the URI for the repository’s online source. This automatically populates the Host and Repository Path fields.
+    3.1 Add the URI for the repository’s online source (Copy from the address bar). This automatically populates the Host and Repository Path fields.
         
     3.2 Add your username and password for the source repository under the Authentication details.
 
@@ -135,7 +135,7 @@ prompt> mvn -v
 
 ###Step 3 Build, Deploy and Run###
 
-1. In the Servers tab, select Red Hat JBoss EAP 7.0 [Stopped] and click the Start the Server icon to start the JBoss EAP server.
+1. In the Servers tab, select "Red Hat JBoss EAP 7.0 [Stopped]" and click the Start the Server icon to start the JBoss EAP server.
 
 2. Once the server starts, right-click the jboss-helloworld-rs application in the Project Explorer view.
 
@@ -143,7 +143,7 @@ prompt> mvn -v
 
     2.2 Select the newly created JBoss EAP server, click OK and then Finish.
 
-This will **build, deploy, and run** the application in the JBoss EAP server. The application opens in the internal default JBoss Developer Studio web browser and presents the "Hello World!" Success page.
+This will **build, deploy, and run** the application in the JBoss EAP server. The application opens in the internal default JBoss Developer Studio web browser and presents the "Hello World!" Success page. You can also open your favorite web browser and visit : localhost:8080/hello-world-rs
 
 #Useful Resources#
 
