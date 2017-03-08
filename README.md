@@ -53,7 +53,8 @@ prompt> javac -version
 ###Step 1 Download Apache Maven Archive###
 1. Go to Apache Maven Download site @ http://maven.apache.org/download.cgi and download the zip package.
 
-###Step 2 Extract the Apache Maven Archive###
+###Step 2 Extract Apache Maven Archive###
+
 1. Extract distribution archive in any directory by using your preferred archive extraction tool, or use a CMD Shell.
 
 ```bash
@@ -62,7 +63,7 @@ prompt> unzip apache-maven-3.3.9-bin.zip
 
 ###Step 3 Include Apache Maven's "bin" Directory in the PATH###
 
-1. Follow the instructions for adding JDK's "bin" directory
+1. Follow the same instructions for adding JDK's "bin" directory.
 
 ###Step 4 Verify the Apache Maven Installation###
 1. Launch a CMD shell and issue the following commands to verify that Apache Maven are properly installed and display their version.
