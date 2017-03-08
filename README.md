@@ -1,5 +1,5 @@
 #Introduction#
-These instructions will guide throught the process of setting up environment, building, deploying and running a Hello World application using Sencha Ext JS that consumes a JAX-RW Rest Web Service.
+These instructions will guide throught the process of setting up environment, building, deploying and running a Hello World application using Sencha Ext JS that consumes a JAX-RS Rest Web Service.
 
 #Prerequisites#
 - Windows Operating System (7/8/10)
@@ -164,3 +164,23 @@ Official website : https://developers.redhat.com/products/eap/overview/
 ##Sencha Ext JS##
 
 Official website : http://docs.sencha.com/extjs/6.2.0/
+
+#Project's Maven Dependecies#
+
+##CDI API 1.2##
+APIs for CDI (Contexts and Dependency Injection for Java EE)
+
+##javax.inject API 1.0##
+The javax.inject API
+
+##Common Annotations API 1.2##
+Common Annotations for the Java(TM) Platform
+
+##JAX-RS API 2.0##
+The Java(TM) API for RESTful Web Services
+
+#Project's Maven Plugins#
+
+##Maven War Plugin##
+collecting all artifact dependencies, classes and resources of the web application and packaging them into a web application archive.
+
