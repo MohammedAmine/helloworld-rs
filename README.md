@@ -125,13 +125,13 @@ prompt> mvn -v
 
     3.4 Customize the local version of your Git repository as follows:
     
-        3.4.1 Confirm that the automatically populated information for the destination Directory and Initial Branch are             correctly populated.
+    - Confirm that the automatically populated information for the destination Directory and Initial Branch are             correctly populated.
         
-        3.4.2 Optionally, set a non-default name for the Remote name field.
+    - Optionally, set a non-default name for the Remote name field.
 
-        3.4.3 Optionally, select the Add project to working sets option and use the drop down menu and the Select button to select the appropriate working sets for this repository.
+    - Optionally, select the Add project to working sets option and use the drop down menu and the Select button to select the appropriate working sets for this repository.
 
-        3.4.4 Click Finish to conclude cloning an existing Git repository. 
+    - Click Finish to conclude cloning an existing Git repository. 
 
 ###Step 3 Build, Deploy and Run###
 
