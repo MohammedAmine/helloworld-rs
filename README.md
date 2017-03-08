@@ -60,7 +60,11 @@ prompt> javac -version
 prompt> unzip apache-maven-3.3.9-bin.zip
 ```
 
-###Step 3 Verify the Apache Maven Installation###
+###Step 3 Include Apache Maven's "bin" Directory in the PATH###
+
+1. Follow the instructions for adding JDK's "bin" directory
+
+###Step 4 Verify the Apache Maven Installation###
 1. Launch a CMD shell and issue the following commands to verify that Apache Maven are properly installed and display their version.
 
 ```bash
