@@ -73,14 +73,52 @@ prompt> mvn -v
 ```
 
 ##Red Hat JBoss EAP##
-1. // TODO
-2. // TODO
-3. // TODO
 
-##Sencha Ext JS##
-1. // TODO
-2. // TODO
-3. // TODO
+###Step 1 Set up development environment###
+
+1. Download JBoss Developer Studio 10.3.0.GA with JBoss EAP @ https://developers.redhat.com/download-manager/file/devstudio-10.3.0.GA-installer-eap.jar.
+
+2. Run the JBoss Developer Studio installer.
+
+    2.1 Navigate to the folder that contains the downloadeded JBoss Developer Studio JAR file.
+
+    2.2 Right-click devstudio-10.3.0.GA-installer-eap.jar
+
+    2.3 Select Open With → Jar Launcher.
+
+3. Follow the on-screen instructions to continue the installation process.
+
+4. Start JBoss Developer Studio.
+
+5. Configure Maven:
+
+    5.1 In JBoss Developer Studio, click Window→Preferences.
+
+    5.2 Type maven in the text box to view options related to Maven.
+
+    5.3In the results, expand JBoss Tools and click JBoss Maven Integration.
+
+    5.4 Click Configure Maven Repositories.
+
+    5.5 Click Add Repository and then click the downward facing arrow in the Profile ID: field to view the available Maven repositories.
+
+    5.6 Select redhat-ga-repository from the drop-down list profile and then click OK.
+    
+6. Click Finish.
+
+7. Answer Yes when asked about updating the settings.xml file.
+
+###Step 2 Build, Deploy and Run###
+
+1. In the Servers tab, select Red Hat JBoss EAP 7.0 [Stopped] and click the Start the Server icon to start the JBoss EAP server.
+
+2. Once the server starts, right-click the jboss-helloworld-rs application in the Project Explorer view.
+
+    2.1 From the menu that appears, select Run as.. and then Run on Server.
+
+    2.2 Select the newly created JBoss EAP server, click OK and then Finish.
+
+This will build, deploy, and run the application in the JBoss EAP server. The application opens in the internal default JBoss Developer Studio web browser and presents the "Hello World!" Success page.
 
 #Useful Resources#
 
