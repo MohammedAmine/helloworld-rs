@@ -31,10 +31,10 @@ To edit the PATH environment variable in Windows 7/8/10:
 3. Under "System Variables" (the bottom pane), scroll down to select "Path" ⇒ Click "Edit...".
 
 ####For Windows 10 (newer releases)####
-    You shall see a TABLE listing all the existing PATH entries (if not, goto next step). Click "New" ⇒ Enter the JDK's binary directory "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number!!!) ⇒ Select "Move Up" to move this entry all the way to the TOP.
+You shall see a TABLE listing all the existing PATH entries (if not, goto next step). Click "New" ⇒ Enter the JDK's binary directory "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number!!!) ⇒ Select "Move Up" to move this entry all the way to the TOP.
     
 ####Prior to Windows####
-    In "Variable value" field, INSERT "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number) IN FRONT of all the existing directories, followed by a semi-colon (;) which separates the JDK's binary directory from the rest of the existing directories. DO NOT DELETE any existing entries; otherwise, some existing applications may not run. 
+In "Variable value" field, INSERT "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number) IN FRONT of all the existing directories, followed by a semi-colon (;) which separates the JDK's binary directory from the rest of the existing directories. DO NOT DELETE any existing entries; otherwise, some existing applications may not run. 
     
 ###Step 4 Verify the JDK Installation###
 
