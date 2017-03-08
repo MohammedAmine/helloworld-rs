@@ -1,5 +1,5 @@
 #Introduction#
-// TODO
+These instructions will guide throught the process of setting up environment, building, deploying and running a Hello World application using Sencha Ext JS that consumes a JAX-RW Rest Web Service.
 
 #Prerequisites#
 - Windows Operating System (7/8/10)
@@ -145,16 +145,22 @@ prompt> mvn -v
 
 This will **build, deploy, and run** the application in the JBoss EAP server. The application opens in the internal default JBoss Developer Studio web browser and presents the "Hello World!" Success page.
 
+#Issues#
+
+##Issue 1##
+
+The JAX-WS web service use a simple POJO to implement the service layer. Replacing in it with a Stateless EJB Cause a NullPointerException. Any help is welcome. Thanks for reading !
+
 #Useful Resources#
 
 ##Apache Maven##
-// TODO
+
+Official website : https://maven.apache.org/
 
 ##Red Hat JBoss EAP##
-// TODO
 
-##JAX-RS##
-// TODO
+Official website : https://developers.redhat.com/products/eap/overview/
 
 ##Sencha Ext JS##
-// TODO
+
+Official website : http://docs.sencha.com/extjs/6.2.0/
