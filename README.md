@@ -176,7 +176,7 @@ The Java(TM) API for RESTful Web Services
 #Project's Maven Plugins#
 
 ##Maven War Plugin##
-collecting all artifact dependencies, classes and resources of the web application and packaging them into a web application archive.
+This plugin collect all artifact dependencies, classes and resources of the web application and package them into a web application archive.
 
 #Issues#
 
