@@ -1,5 +1,5 @@
 #Introduction#
-These instructions will guide throught the process of setting up environment, building, deploying and running a Hello World application using Sencha Ext JS that consumes a JAX-RS Rest Web Service.
+These instructions will guide you through the process of setting up environment, building, deploying and running a Hello World application using Sencha Ext JS that consumes a JAX-RS Rest Web Service.
 
 #Prerequisites#
 - Windows Operating System (7/8/10)
