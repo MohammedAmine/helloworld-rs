@@ -145,12 +145,6 @@ prompt> mvn -v
 
 This will **build, deploy, and run** the application in the JBoss EAP server. The application opens in the internal default JBoss Developer Studio web browser and presents the "Hello World!" Success page.
 
-#Issues#
-
-##Issue 1##
-
-The JAX-WS web service use a simple POJO to implement the service layer. Replacing in it with a Stateless EJB Cause a NullPointerException. Any help is welcome. Thanks for reading !
-
 #Useful Resources#
 
 ##Apache Maven##
@@ -184,3 +178,10 @@ The Java(TM) API for RESTful Web Services
 ##Maven War Plugin##
 collecting all artifact dependencies, classes and resources of the web application and packaging them into a web application archive.
 
+#Issues#
+
+##Issue 1##
+
+The JAX-WS web service use a simple POJO to implement the service layer. Replacing in it with a Stateless EJB Cause a NullPointerException. Any help is welcome. 
+
+Thanks for reading !
