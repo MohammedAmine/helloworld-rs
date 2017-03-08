@@ -21,6 +21,7 @@
 
 1. Run the downloaded installer (e.g., "jdk-8u{xx}-windows-x64.exe"), which installs both the JDK and JRE. By default, the JDK will be installed in directory "C:\Program Files\Java\jdk1.8.0_xx", where xx denotes the upgrade number; and JRE in "C:\Program Files\Java\jre1.8.0_xx".
 2. Accept the defaults and follow the screen instructions to install JDK and JRE.
+
 ###Step 3 Include JDK's "bin" Directory in the PATH###
 
 To edit the PATH environment variable in Windows 7/8/10:
