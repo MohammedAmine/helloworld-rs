@@ -33,28 +33,33 @@ To edit the PATH environment variable in Windows 7/8/10:
 ####For Windows 10 (newer releases)####
 You shall see a TABLE listing all the existing PATH entries (if not, goto next step). Click "New" ⇒ Enter the JDK's binary directory "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number!!!) ⇒ Select "Move Up" to move this entry all the way to the TOP.
     
-####Prior to Windows####
+####Prior to Windows 10####
 In "Variable value" field, INSERT "c:\Program Files\Java\jdk1.8.0_xx\bin" (Replace xx with your installation number) IN FRONT of all the existing directories, followed by a semi-colon (;) which separates the JDK's binary directory from the rest of the existing directories. DO NOT DELETE any existing entries; otherwise, some existing applications may not run. 
     
 ###Step 4 Verify the JDK Installation###
 
-Launch a CMD shell and issue the following commands to verify that JDK/JRE are properly installed and display their version.
+1. Launch a CMD shell and issue the following commands to verify that JDK/JRE are properly installed and display their version.
 ```bash
 // Display the JRE version
 prompt> java -version
-java version "1.8.0_xx"
-Java(TM) SE Runtime Environment (build 1.8.0_xx-b13)
-Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)
  
 // Display the JDK version
 prompt> javac -version
-javac 1.8.0_xx
 ```
 
 ##Apache Maven##
-1. // TODO
-2. // TODO
-3. // TODO
+###Step 1 Download Apache Maven Archive###
+1. Go to Apache Maven Download site @ http://maven.apache.org/download.cgi and download the zip package
+###Step 2 Install Apache Maven###
+1. Extract distribution archive in any directory by using your preferred archive extraction tool, or use a CMD Shell
+
+```bash
+unzip apache-maven-3.3.9-bin.zip
+```
+2. Launch a CMD shell and issue the following commands to verify that Apache Maven are properly installed and display their version.
+```bash
+prompt> mvn -v
+```
 
 ##Red Hat JBoss EAP##
 1. // TODO
